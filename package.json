@@ -1,0 +1,40 @@
+{
+  "name": "mozaik-ext-json",
+  "version": "0.0.12",
+  "description": "Mozaïk json extension",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtbonhomme/mozaik-ext-json.git"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "convict": "^1.0.1",
+    "react-mixin": "3.0.4",
+    "superagent-bluebird-promise": "^4.1.0"
+  },
+  "main": "./src/components/index.js",
+  "devDependencies": {
+    "mozaik": "0.0.9-beta",
+    "react": "^0.13.3",
+    "reflux": "^0.2.5"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "readme": "# Mozaïk mozaik-ext-json extension !! WORK IN PROGRESS !!\n\nTo install mozaik-ext-json from npm, run:\n\n```bash\nnpm install --save mozaik-ext-json\n```",
+  "readmeFilename": "README.md",
+  "gitHead": "6676fba955f528f3d2e5aa966bd06e73838dcb6d",
+  "bugs": {
+    "url": "https://github.com/jtbonhomme/mozaik-ext-json/issues"
+  },
+  "homepage": "https://github.com/jtbonhomme/mozaik-ext-json",
+  "_id": "mozaik-ext-json@0.0.8",
+  "scripts": {},
+  "_shasum": "4ae39590eb699977f5d433f4cdd22349c1946a4f",
+  "_from": "mozaik-ext-json@^0.0.8"
+}
